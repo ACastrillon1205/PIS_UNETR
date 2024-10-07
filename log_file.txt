@@ -1,0 +1,41 @@
+<EasyDict 0x1ea463704b0
+  'data_root': 'S:\Users\Vlacho\Desktop\luisa\Slim-UNETR-nuevo\Slim-UNETR-main\image',
+  'finetune': <EasyDict 0x1ea46370820
+    'checkpoint': 'hepatic_vessel'
+  >,
+  'slim_unetr': <EasyDict 0x1ea463707d0
+    'blocks': [1, 2, 3, 2],
+    'channels': [24, 48, 60],
+    'dropout': 0.3,
+    'embed_dim': 96,
+    'embedding_dim': 27,
+    'heads': [1, 2, 4, 4],
+    'in_channels': 1,
+    'out_channels': 2,
+    'r': [4, 2, 2, 1]
+  >,
+  'trainer': <EasyDict 0x1ea46370690
+    'batch_size': 1,
+    'image_size': 96,
+    'lr': 0.001,
+    'min_lr': 1e-07,
+    'momentum_teacher': 0.996,
+    'num_epochs': 1,
+    'num_workers': 16,
+    'optimizer': 'adamw',
+    'pred_ratio_var': 0,
+    'resume': False,
+    'train_ratio': 0.8,
+    'warmup': 5,
+    'weight_decay': 0.05,
+    'weight_decay_end': 0.04
+  >
+>
+Load Model...
+Load Dataloader...
+monai.transforms.croppad.dictionary CropForegroundd.__init__:allow_smaller: Current default value of argument `allow_smaller=True` has been deprecated since version 1.2. It will be changed to `allow_smaller=False` in version 1.5.
+Start Training！
+Epoch [1/1] Training [1/3] Loss: 1.34246 
+Epoch [1/1] Training [2/3] Loss: 1.34478 
+Epoch [1/1] Training [3/3] Loss: 1.34391 
+Epoch [1/1] Training metric {'Train/mean dice_metric': 1.9246346710133366e-05, 'Train/Hepatic Vessel dice_metric': 1.1351588000252377e-05, 'Train/Tumors dice_metric': 2.7141104510519654e-05}

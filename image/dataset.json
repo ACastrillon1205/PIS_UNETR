@@ -1,0 +1,38 @@
+{
+    "training": [
+        {
+            "image": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00001_11\\UPENN-GBM-00001_11_T1GD.nii.gz",
+            "label": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00001_11\\UPENN-GBM-00001_11_T1GD.nii.gz"
+        },
+        {
+            "image": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00002_11\\UPENN-GBM-00002_11_FLAIR.nii.gz",
+            "label": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00002_11\\UPENN-GBM-00002_11_FLAIR.nii.gz"
+        },
+        {
+            "image": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00001_11\\UPENN-GBM-00001_11_T2.nii.gz",
+            "label": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00001_11\\UPENN-GBM-00001_11_T2.nii.gz"
+        },
+        {
+            "image": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00002_11\\UPENN-GBM-00002_11_T1GD.nii.gz",
+            "label": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00002_11\\UPENN-GBM-00002_11_T1GD.nii.gz"
+        }
+    ],
+    "val": [
+        {
+            "image": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00001_11\\UPENN-GBM-00001_11_T1.nii.gz",
+            "label": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00001_11\\UPENN-GBM-00001_11_T1.nii.gz"
+        },
+        {
+            "image": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00002_11\\UPENN-GBM-00002_11_T1.nii.gz",
+            "label": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00002_11\\UPENN-GBM-00002_11_T1.nii.gz"
+        },
+        {
+            "image": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00001_11\\UPENN-GBM-00001_11_FLAIR.nii.gz",
+            "label": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00001_11\\UPENN-GBM-00001_11_FLAIR.nii.gz"
+        },
+        {
+            "image": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00002_11\\UPENN-GBM-00002_11_T2.nii.gz",
+            "label": "S:\\Users\\Vlacho\\Desktop\\luisa\\Slim-UNETR-nuevo\\Slim-UNETR-main\\image\\UPENN-GBM-00002_11\\UPENN-GBM-00002_11_T2.nii.gz"
+        }
+    ]
+}
